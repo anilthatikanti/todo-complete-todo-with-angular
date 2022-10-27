@@ -1,0 +1,8 @@
+<div class="card mt-2 p-2 d-flex flex-row align-center">
+    <input class="check-box"class="check-box" type="checkbox" (click)="doneTodo(item)" [checked]="item.isActive">
+    <div class="content">
+        <h1 style="font-size: 25px;" [ngClass]="{'selected':item.isActive}">{{item.title}}</h1>
+        <p style="font-size: 15px;">{{item.description}}</p>
+        <button class="btn btn-danger button-style" (click)="removeItem(item)">Delete</button>
+    </div>
+</div>

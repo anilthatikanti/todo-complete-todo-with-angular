@@ -1,0 +1,20 @@
+.card{
+    border-style: solid;
+    border-radius: 5px;
+}
+.button-style{
+    width:100px;
+    text-align: center;
+    padding:2px;
+    margin:0px;
+}
+.content{
+    margin-left: 20px;
+}
+.check-box{
+    height:15px;
+    width:15px;
+}
+.selected{
+    text-decoration: line-through;
+}
